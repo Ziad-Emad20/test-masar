@@ -1,5 +1,8 @@
 body {
-    background: #eee;
+    background: #65555551;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .swing {
@@ -63,4 +66,27 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 10%;
+}
+
+.name {
+    height: 40vh;
+    width: 40%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:4rem auto;
+    box-shadow: 5px 5px 50px 1px #999;
+    transition: 1s;
+}
+button {
+    box-shadow: 5px 5px 50px 1px #999;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+}
+.change-color {
+    background-color: red;
+    transition: 1s;
 }
