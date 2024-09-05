@@ -2,7 +2,7 @@ body {
     background: #65555551;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .swing {
@@ -76,17 +76,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:4rem auto;
+    margin: 4rem auto;
     box-shadow: 5px 5px 50px 1px #999;
     transition: 1s;
 }
+
 button {
     box-shadow: 5px 5px 50px 1px #999;
     border-radius: 10px;
     margin: auto;
     border: none;
 }
+
 .change-color {
     background-color: red;
     transition: 1s;
+}
+
+/*nav*/
+.navbar-nav a {
+    color: #fff;
+    font-size: large;
 }
