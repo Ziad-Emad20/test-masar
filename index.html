@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <title>MASAR</title>
 </head>
@@ -62,8 +63,25 @@
         <h1>Masar</h1>
         <button class="btn12">Change Color</button>
     </section>
+    <!-- Swiper -->
+    <section class="slide">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://canto-wp-media.s3.amazonaws.com/app/uploads/2019/07/19194417/insert-image-html.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./front.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./ddd.png" alt=""></div>
+                <div class="swiper-slide"><img src="./download.png" alt=""></div>
+            </div>
+            <div class="autoplay-progress">
+                <svg viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="20"></circle>
+                </svg>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
-
 </html>
